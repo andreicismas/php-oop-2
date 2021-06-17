@@ -1,6 +1,6 @@
 <?php
 
-require_once (  './classes/user.php');
+require_once( __DIR__ . './user.php');
 
 class PremiumUser extends User {
   

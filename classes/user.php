@@ -13,7 +13,7 @@ class User {
     $this->setName($name);
     $this->setLastName($lastname);
     $this->setEmail($email);
-    $this->id_user = rand(0, 9999999);
+    $this->id_user = rand(0, 1000);
   }
   
   public function setName($value) {
